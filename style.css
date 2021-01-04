@@ -1,0 +1,40 @@
+body {
+  background-color: #000000;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.canvas-container {
+  width: 100%;
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@font-face {
+  font-family: Masterblast;
+  src: url(./fonts/Masterblast.otf);
+}
+
+@font-face {
+  font-family: MetalChakra;
+  src: url(./fonts/MetalChakra.ttf);
+}
+
+@font-face {
+  font-family: Motorstrike;
+  src: url(./fonts/Motorstrike.otf);
+}
+
+@font-face {
+  font-family: SquareWave;
+  src: url(./fonts/Squarewave.ttf);
+}
+
+.why canvas{
+  left: 20%;
+}
